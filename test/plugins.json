@@ -1,0 +1,8 @@
+[
+  "fastify-sensible",
+  "./plugins/example2",
+  "./plugins/example1",
+  ["./plugins/example3", {
+    "key": 3
+  }]
+]
