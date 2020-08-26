@@ -2,6 +2,8 @@
 
 A plugin to register an ordered list of plugins (e.g. from a JSON file)
 
+![Node.js CI](https://github.com/heply/fastify-plugin-loader/workflows/Node.js%20CI/badge.svg)
+
 ## Why?
 
 The official [fastify.-autoload](https://github.com/fastify/fastify-autoload) plugin allows devs to load all plugins stored in a specific folder.
