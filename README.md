@@ -1,6 +1,15 @@
 # fastify-plugin-loader
 
-A plugin to register a ordered list of plugins (e.g. from a JSON file)
+A plugin to register an ordered list of plugins (e.g. from a JSON file)
+
+## Why?
+
+The official [fastify.-autoload](https://github.com/fastify/fastify-autoload) plugin allows devs to load all plugins stored in a specific folder.
+
+The main issue with this approach is that it's nearly **impossible** to:
+
+- define a **specific loading order**
+- **passing configuration options** to loaded plugins
 
 ## Install
 
@@ -43,6 +52,8 @@ When registering the plugin in your app, you can pass the following options:
 |---------------------|---------------------------------------------------------------------|
 | `basepath`          | The reference root path to consider when resolving `.` or `..`      |
 | `plugins`           | The ordered list of plugin filenames to load.                       |
+
+**NOTE:** additional options are forwarded to **all** loaded plugins (and merged with plugin's local options, if provided).
 
 ## Test
 

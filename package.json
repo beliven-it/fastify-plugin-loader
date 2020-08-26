@@ -1,7 +1,7 @@
 {
   "name": "fastify-plugin-loader",
   "version": "0.0.1",
-  "description": "A plugin to register a ordered list of plugins (e.g. from a JSON file)",
+  "description": "A plugin to register an ordered list of plugins (e.g. from a JSON file)",
   "main": "crud.js",
   "scripts": {
     "test": "npx tap -Rspec --coverage test/**/*.test.js"
