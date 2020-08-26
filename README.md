@@ -6,7 +6,7 @@ A plugin to register an ordered list of plugins (e.g. from a JSON file)
 
 ## Why?
 
-The official [fastify.-autoload](https://github.com/fastify/fastify-autoload) plugin allows devs to load all plugins stored in a specific folder.
+The official [fastify-autoload](https://github.com/fastify/fastify-autoload) plugin allows devs to load all plugins stored in a specific folder.
 
 The main issue with this approach is that it's nearly **impossible** to:
 
