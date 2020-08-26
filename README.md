@@ -51,7 +51,7 @@ When registering the plugin in your app, you can pass the following options:
 | Name                | Description                                                         |
 |---------------------|---------------------------------------------------------------------|
 | `basepath`          | The reference root path to consider when resolving `.` or `..`      |
-| `plugins`           | The ordered list of plugin filenames to load.                       |
+| `plugins`           | The ordered list of plugin filenames to load (or `[filename, opts]` tuples).                       |
 
 **NOTE:** additional options are forwarded to **all** loaded plugins (and merged with plugin's local options, if provided).
 
